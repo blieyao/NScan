@@ -41,7 +41,7 @@ if ! command -v subfinder -up &> /dev/null; then
 fi
 
 # Check if Gau is installed, if not, install it
-if ! command -v gauplus &> /dev/null; then
+if ! command -v gau &> /dev/null; then
     echo "Installing Gauplus..."
     # go install -v github.com/bp0lr/gauplus@latest
     # https://github.com/lc/gau/releases/download/v2.2.3/gau_2.2.3_linux_amd64.tar.gz
